@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+.input {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 1.5em;
+    padding: 10px 20px ;
+}
+
+.main-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid black;
+}

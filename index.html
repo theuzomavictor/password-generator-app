@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>Generate a <span>Random Password</span></h1>
-    <p>Never use an insecure password again.</p>
-    <button>Generate Password</button>
-    <hr>
-    <p id="pass-one-el"></p>
-    <p id="pass-two-el"></p>
+    <div class="main-container">
+        <div class="content">
+            <h1>Generate a <span>Random Password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <button onclick="generatePass()">Generate Password</button>
+            <hr>
+            <p id="pass-one-el" class="input"></p>
+            <p id="pass-two-el" class="input"></p>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
